@@ -30,7 +30,7 @@ a.fill-div {
   width: 100%;
 }
 a{text-decoration: none;}
-h1 a{font-family: starwarsh}
+h1 a{font-family: starwarsh;}
 /* header */
 /* main */
 main{padding-top: 50px;width: 100%;}
@@ -43,7 +43,7 @@ div{height: 340px;display: inline-block;width:100%;}
 #suffering{background-image:url(suffering.png);background-size: cover;background-repeat: no-repeat;background-position:-60px 0px;}
 .suffering{margin-left: 33%;}
 #redemption{background-image:url(redemption.png);background-size: cover;background-repeat: no-repeat;background-position:0px -50px;}
-h2,p{width: 65%;;min-width: 520px;padding-left: 2vw;}
+h2,p{width: 65%;min-width: 520px;padding-left: 2vw;}
 p{padding-top: 30px;}
 footer{text-align: center;padding: 20px 0;font-family: sans-serif;}
 footer a{font-family: sans-serif;}
