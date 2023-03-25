@@ -1,0 +1,50 @@
+@font-face{font-family:starwars;src:url(Starjedi.ttf)}
+@font-face{font-family:starwarsh;src:url(Starjedih.ttf)}
+*{color:rgb(255, 230, 0) ;font-family: starwars;scroll-behavior: smooth;text-transform: lowercase;}
+html{background-image: url(stars.png);;background-size: contain;
+    scroll-padding-top: 70px;}
+/* header */
+header {
+    background-image: url(stars.png);
+  width: 100%;
+  height: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1em;
+}
+h1{text-align: center;
+width: 100%;
+margin:0 50px;font-size: 2vw;}
+nav{width: 100%;padding-right: 3%;}
+.logo{width: 100px;padding-left: 10px;padding-top: 5px;}
+ul{list-style-type: none;display: flex;justify-content:end;gap: 5vw;margin-right: 0px;}
+#banner{background-image:url(banner.jpg);background-size: cover;background-position: 50%;margin:2.5em auto -50px auto;width: 100%;height: 700px;
+}
+a.fill-div {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+a{text-decoration: none;}
+h1 a{font-family: starwarsh}
+/* header */
+/* main */
+main{padding-top: 50px;width: 100%;}
+body{margin: 0;width: 100%;}
+div{height: 340px;display: inline-block;width:100%;}
+#fear{background-image:url(fear.png);background-size: cover;background-repeat: no-repeat;}
+#anger{background-image:url(anger.jpg);background-size: cover;background-repeat: no-repeat;background-position:0 -40px;}
+.anger{margin-left: 33%;}
+#hate{background-image:url(hate.png);background-size: cover;background-repeat: no-repeat;}
+#suffering{background-image:url(suffering.png);background-size: cover;background-repeat: no-repeat;background-position:-60px 0px;}
+.suffering{margin-left: 33%;}
+#redemption{background-image:url(redemption.png);background-size: cover;background-repeat: no-repeat;background-position:0px -50px;}
+h2,p{width: 65%;;min-width: 520px;padding-left: 2vw;}
+p{padding-top: 30px;}
+footer{text-align: center;padding: 20px 0;font-family: sans-serif;}
+footer a{font-family: sans-serif;}
+/* main */
