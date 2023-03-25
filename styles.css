@@ -1,5 +1,5 @@
-@font-face{font-family:starwars;src:url(Starjedi.ttf)}
 @font-face{font-family:starwarsh;src:url(StarJedih.ttf)}
+@font-face{font-family:starwars;src:url(Starjedi.ttf)}
 *{color:rgb(255, 230, 0) ;font-family: starwars;scroll-behavior: smooth;text-transform: lowercase;}
 html{background-image: url(stars.png);background-size: contain;
     scroll-padding-top: 70px;}
